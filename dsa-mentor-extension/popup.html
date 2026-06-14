@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>DSA Mentor Settings</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>🧭 DSA Mentor</h2>
+  <p class="subtitle">Your AI coding buddy for LeetCode</p>
+
+  <label for="apiKey">Gemini API Key</label>
+  <input type="password" id="apiKey" placeholder="Paste your Gemini API key" />
+  <button id="saveBtn">Save</button>
+  <div id="status"></div>
+
+  <div class="info">
+    <p>1. Get a free key from <a href="https://aistudio.google.com/app/apikey" target="_blank">Google AI Studio</a>.</p>
+    <p>2. Paste it above and click Save.</p>
+    <p>3. Open any LeetCode problem — the mentor panel appears bottom-right.</p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
