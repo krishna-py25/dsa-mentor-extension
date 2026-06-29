@@ -111,6 +111,4 @@ Pull requests and suggestions are welcome.
 
 MIT License
 
----
 
-⭐ Star the repository if you find it useful.
